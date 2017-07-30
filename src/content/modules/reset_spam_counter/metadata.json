@@ -1,0 +1,16 @@
+{
+	"source": "extend",
+	"version": "1.0",
+	"embed": false,
+	"custom_acl": [
+		"reset_spam_counter"
+	],
+	"admin_permission": "reset_spam_counter",
+	"controllers": {
+		"ResetSpamCounter": "ResetSpamCounter.php"
+	},
+	"main_class": "ResetSpamCounter",
+	"controller_function_permissions": {
+		"ResetSpamCounter::doReset": "reset_spam_counter"
+	}
+}
